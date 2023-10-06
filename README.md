@@ -2,9 +2,9 @@
 Script to create ImageSetConfiguration file to be used with oc-mirror
 Description:
 
-Depending on how much Operators you want to prune.  It can take a lot of time to generate the “ImageSetConfiguration” yaml file for the first time. 
+Depending on how many Operators you want to prune.  It can take a lot of time to generate the “ImageSetConfiguration” YAML file for the first time. 
 
-This tools has been created to facilitate the process and generate a valid “ImageSetConfiguration” yaml file.
+This tool has been created to facilitate the process and generate a valid “ImageSetConfiguration” YAML file.
 
 Prerequisites:
 
@@ -15,7 +15,7 @@ Prerequisites:
 
 How it works:
 
-- First, you need to identify the Operators you need and to wich catalogs they belong too.
+- First, you need to identify the Operators you need and wich catalogs they belong too.
 
 - Next, you need to update the below variables of the script:
 
@@ -30,7 +30,7 @@ How it works:
     - registry.redhat.io/redhat/community-operator-index
     - registry.redhat.io/redhat/redhat-marketplace-index
 
-  - KEEP="\<List of Operators need to be prune for a specific catalog>"
+  - KEEP="\<List of Operators need to be pruned for a specific catalog>"
 
 - Run the script:
 

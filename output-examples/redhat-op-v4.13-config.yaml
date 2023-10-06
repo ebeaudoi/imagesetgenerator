@@ -1,0 +1,65 @@
+kind: ImageSetConfiguration
+apiVersion: mirror.openshift.io/v1alpha2
+storageConfig:
+  local:
+    path: ./metadata/redhat-catalogs
+mirror:
+  operators:
+  - catalog: registry.redhat.io/redhat/redhat-operator-index:v4.13
+    targetCatalog: my-redhat-v4.13-catalog
+    packages:
+    - name: advanced-cluster-management
+      channels:
+      - name: release-2.8
+        minVersion: '2.8.2'
+        maxVersion: '2.8.2'
+    - name: amq7-interconnect-operator
+      channels:
+      - name: 1.10.x
+        minVersion: '1.10.9'
+        maxVersion: '1.10.9'
+    - name: amq-broker-rhel8
+      channels:
+      - name: 7.11.x
+        minVersion: '7.11.2-opr-1'
+        maxVersion: '7.11.2-opr-1'
+    - name: amq-online
+      channels:
+      - name: stable
+        minVersion: '1.7.4+0.1657725339.p'
+        maxVersion: '1.7.4+0.1657725339.p'
+    - name: amq-streams
+      channels:
+      - name: stable
+        minVersion: '2.5.0-0'
+        maxVersion: '2.5.0-0'
+    - name: ansible-automation-platform-operator
+      channels:
+      - name: stable-2.4-cluster-scoped
+        minVersion: '2.4.0+0.1695086882'
+        maxVersion: '2.4.0+0.1695086882'
+    - name: ansible-cloud-addons-operator
+      channels:
+      - name: stable-2.4-cluster-scoped
+        minVersion: '2.4.0+0.1695086173'
+        maxVersion: '2.4.0+0.1695086173'
+    - name: cluster-logging
+      channels:
+      - name: stable
+        minVersion: '5.7.6'
+        maxVersion: '5.7.6'
+    - name: compliance-operator
+      channels:
+      - name: stable
+        minVersion: '1.3.0'
+        maxVersion: '1.3.0'
+    - name: datagrid
+      channels:
+      - name: 8.4.x
+        minVersion: '8.4.8'
+        maxVersion: '8.4.8'
+    - name: devspaces
+      channels:
+      - name: stable
+        minVersion: '3.8.0'
+        maxVersion: '3.8.0'

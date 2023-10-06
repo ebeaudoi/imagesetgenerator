@@ -1,0 +1,11 @@
+advanced-cluster-management,release-2.8
+amq7-interconnect-operator,1.10.x
+amq-broker-rhel8,7.11.x
+amq-online,stable
+amq-streams,stable
+ansible-automation-platform-operator,stable-2.4-cluster-scoped
+ansible-cloud-addons-operator,stable-2.4-cluster-scoped
+cluster-logging,stable
+compliance-operator,stable
+datagrid,8.4.x
+devspaces,stable
