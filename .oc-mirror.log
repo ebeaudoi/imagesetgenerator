@@ -48,3 +48,23 @@ VERSIONS
 2.8.0
 2.8.1
 2.8.2
+NAME                         DISPLAY NAME                                DEFAULT CHANNEL
+advanced-cluster-management  Advanced Cluster Management for Kubernetes  release-2.8
+
+PACKAGE                      CHANNEL      HEAD
+advanced-cluster-management  release-2.7  advanced-cluster-management.v2.7.8
+advanced-cluster-management  release-2.8  advanced-cluster-management.v2.8.2
+VERSIONS
+2.8.0
+2.8.1
+2.8.2
+NAME                         DISPLAY NAME                                DEFAULT CHANNEL
+advanced-cluster-management  Advanced Cluster Management for Kubernetes  release-2.8
+
+PACKAGE                      CHANNEL      HEAD
+advanced-cluster-management  release-2.7  advanced-cluster-management.v2.7.8
+advanced-cluster-management  release-2.8  advanced-cluster-management.v2.8.2
+VERSIONS
+2.8.0
+2.8.1
+2.8.2
