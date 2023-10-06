@@ -15,7 +15,7 @@ Prerequisites:
 
 How it works:
 
-- First, you need to identify the Operators you need and wich catalogs they belong too.
+- First, you need to identify the Operators you need and which catalogs they belong too.
 
 - Next, you need to update the below variables of the script:
 
