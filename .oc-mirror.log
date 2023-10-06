@@ -796,3 +796,162 @@ mcg-operator  NooBaa Operator  stable-4.13
 PACKAGE       CHANNEL      HEAD
 mcg-operator  stable-4.12  mcg-operator.v4.12.8-rhodf
 mcg-operator  stable-4.13  mcg-operator.v4.13.3-rhodf
+NAME                 DISPLAY NAME                        DEFAULT CHANNEL
+multicluster-engine  multicluster engine for Kubernetes  stable-2.3
+
+PACKAGE              CHANNEL     HEAD
+multicluster-engine  stable-2.2  multicluster-engine.v2.2.8
+multicluster-engine  stable-2.3  multicluster-engine.v2.3.2
+NAME  DISPLAY NAME                     DEFAULT CHANNEL
+nfd   Node Feature Discovery Operator  stable
+
+PACKAGE  CHANNEL  HEAD
+nfd      stable   nfd.4.13.0-202309181427
+NAME          DISPLAY NAME                 DEFAULT CHANNEL
+ocs-operator  OpenShift Container Storage  stable-4.13
+
+PACKAGE       CHANNEL      HEAD
+ocs-operator  stable-4.12  ocs-operator.v4.12.8-rhodf
+ocs-operator  stable-4.13  ocs-operator.v4.13.3-rhodf
+NAME                     DISPLAY NAME  DEFAULT CHANNEL
+odf-csi-addons-operator  CSI Addons    stable-4.13
+
+PACKAGE                  CHANNEL      HEAD
+odf-csi-addons-operator  stable-4.12  odf-csi-addons-operator.v4.12.8-rhodf
+odf-csi-addons-operator  stable-4.13  odf-csi-addons-operator.v4.13.3-rhodf
+NAME          DISPLAY NAME               DEFAULT CHANNEL
+odf-operator  OpenShift Data Foundation  stable-4.13
+
+PACKAGE       CHANNEL      HEAD
+odf-operator  stable-4.12  odf-operator.v4.12.8-rhodf
+odf-operator  stable-4.13  odf-operator.v4.13.3-rhodf
+NAME                  DISPLAY NAME                   DEFAULT CHANNEL
+odr-cluster-operator  Openshift DR Cluster Operator  stable-4.13
+
+PACKAGE               CHANNEL      HEAD
+odr-cluster-operator  stable-4.12  odr-cluster-operator.v4.12.8-rhodf
+odr-cluster-operator  stable-4.13  odr-cluster-operator.v4.13.3-rhodf
+NAME              DISPLAY NAME               DEFAULT CHANNEL
+odr-hub-operator  Openshift DR Hub Operator  stable-4.13
+
+PACKAGE           CHANNEL      HEAD
+odr-hub-operator  stable-4.12  odr-hub-operator.v4.12.8-rhodf
+odr-hub-operator  stable-4.13  odr-hub-operator.v4.13.3-rhodf
+NAME                             DISPLAY NAME                                 DEFAULT CHANNEL
+openshift-cert-manager-operator  cert-manager Operator for Red Hat OpenShift  stable-v1
+
+PACKAGE                          CHANNEL       HEAD
+openshift-cert-manager-operator  stable-v1     cert-manager-operator.v1.12.0
+openshift-cert-manager-operator  stable-v1.10  cert-manager-operator.v1.10.3
+openshift-cert-manager-operator  stable-v1.11  cert-manager-operator.v1.11.4
+openshift-cert-manager-operator  stable-v1.12  cert-manager-operator.v1.12.0
+NAME                       DISPLAY NAME              DEFAULT CHANNEL
+openshift-gitops-operator  Red Hat OpenShift GitOps  latest
+
+PACKAGE                    CHANNEL      HEAD
+openshift-gitops-operator  gitops-1.10  openshift-gitops-operator.v1.10.0
+openshift-gitops-operator  gitops-1.6   openshift-gitops-operator.v1.6.6
+openshift-gitops-operator  gitops-1.7   openshift-gitops-operator.v1.7.4-0.1690486082.p
+openshift-gitops-operator  gitops-1.8   openshift-gitops-operator.v1.8.5
+openshift-gitops-operator  gitops-1.9   openshift-gitops-operator.v1.9.2
+openshift-gitops-operator  latest       openshift-gitops-operator.v1.10.0
+NAME                             DISPLAY NAME                 DEFAULT CHANNEL
+openshift-pipelines-operator-rh  Red Hat OpenShift Pipelines  latest
+
+PACKAGE                          CHANNEL         HEAD
+openshift-pipelines-operator-rh  latest          openshift-pipelines-operator-rh.v1.12.0
+openshift-pipelines-operator-rh  pipelines-1.10  openshift-pipelines-operator-rh.v1.10.5
+openshift-pipelines-operator-rh  pipelines-1.11  openshift-pipelines-operator-rh.v1.11.1
+openshift-pipelines-operator-rh  pipelines-1.12  openshift-pipelines-operator-rh.v1.12.0
+openshift-pipelines-operator-rh  pipelines-1.9   openshift-pipelines-operator-rh.v1.9.3
+NAME                   DISPLAY NAME                                           DEFAULT CHANNEL
+opentelemetry-product  Red Hat OpenShift distributed tracing data collection  stable
+
+PACKAGE                CHANNEL  HEAD
+opentelemetry-product  stable   opentelemetry-operator.v0.81.0-2
+NAME           DISPLAY NAME  DEFAULT CHANNEL
+quay-operator  Red Hat Quay  stable-3.9
+
+PACKAGE        CHANNEL     HEAD
+quay-operator  quay-v3.4   quay-operator.v3.4.7
+quay-operator  quay-v3.5   quay-operator.v3.5.7
+quay-operator  stable-3.6  quay-operator.v3.6.10
+quay-operator  stable-3.7  quay-operator.v3.7.14
+quay-operator  stable-3.8  quay-operator.v3.8.12
+quay-operator  stable-3.9  quay-operator.v3.9.2
+NAME                  DISPLAY NAME   DEFAULT CHANNEL
+redhat-oadp-operator  OADP Operator  stable-1.2
+
+PACKAGE               CHANNEL     HEAD
+redhat-oadp-operator  stable      oadp-operator.v1.1.6
+redhat-oadp-operator  stable-1.0  oadp-operator.v1.0.12
+redhat-oadp-operator  stable-1.1  oadp-operator.v1.1.6
+redhat-oadp-operator  stable-1.2  oadp-operator.v1.2.1
+NAME            DISPLAY NAME                              DEFAULT CHANNEL
+rhacs-operator  Advanced Cluster Security for Kubernetes  stable
+
+PACKAGE         CHANNEL     HEAD
+rhacs-operator  latest      rhacs-operator.v3.74.6
+rhacs-operator  rhacs-3.62  rhacs-operator.v3.62.1
+rhacs-operator  rhacs-3.64  rhacs-operator.v3.64.2
+rhacs-operator  rhacs-3.65  rhacs-operator.v3.65.1
+rhacs-operator  rhacs-3.66  rhacs-operator.v3.66.1
+rhacs-operator  rhacs-3.67  rhacs-operator.v3.67.2
+rhacs-operator  rhacs-3.68  rhacs-operator.v3.68.2
+rhacs-operator  rhacs-3.69  rhacs-operator.v3.69.2
+rhacs-operator  rhacs-3.70  rhacs-operator.v3.70.1
+rhacs-operator  rhacs-3.71  rhacs-operator.v3.71.3
+rhacs-operator  rhacs-3.72  rhacs-operator.v3.72.4
+rhacs-operator  rhacs-3.73  rhacs-operator.v3.73.5
+rhacs-operator  rhacs-3.74  rhacs-operator.v3.74.6
+rhacs-operator  rhacs-4.0   rhacs-operator.v4.0.4
+rhacs-operator  rhacs-4.1   rhacs-operator.v4.1.3
+rhacs-operator  rhacs-4.2   rhacs-operator.v4.2.1
+rhacs-operator  stable      rhacs-operator.v4.2.1
+NAME            DISPLAY NAME                    DEFAULT CHANNEL
+rhods-operator  Red Hat OpenShift Data Science  stable
+
+PACKAGE         CHANNEL   HEAD
+rhods-operator  alpha     rhods-operator.2.2.0
+rhods-operator  beta      rhods-operator.1.33.0
+rhods-operator  embedded  rhods-operator.2.1.0
+rhods-operator  stable    rhods-operator.1.33.0
+NAME            DISPLAY NAME                     DEFAULT CHANNEL
+rhsso-operator  Red Hat Single Sign-On Operator  stable
+
+PACKAGE         CHANNEL  HEAD
+rhsso-operator  alpha    rhsso-operator.7.5.1-opr-005
+rhsso-operator  stable   rhsso-operator.7.6.5-opr-002
+NAME                 DISPLAY NAME                    DEFAULT CHANNEL
+servicemeshoperator  Red Hat OpenShift Service Mesh  stable
+
+PACKAGE              CHANNEL  HEAD
+servicemeshoperator  1.0      servicemeshoperator.v2.4.3
+servicemeshoperator  stable   servicemeshoperator.v2.4.3
+VERSIONS
+2.8.0
+2.8.1
+2.8.2
+VERSIONS
+1.10.13
+1.10.16
+1.10.10
+1.10.11
+1.10.12
+1.10.14
+1.10.17
+1.10.15
+1.10.3
+1.10.6
+1.10.2
+1.10.4
+1.10.5
+1.10.7
+1.10.8
+1.10.9
+VERSIONS
+7.11.2-opr-1
+7.11.0-opr-2
+7.11.0-opr-3
+7.11.1-opr-1
+7.11.1-opr-2
