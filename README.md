@@ -36,3 +36,7 @@ How it works:
 
 ./generate-imagesetconfigurationyamlfile.sh
 
+- Output:
+  The script generate three files
+  - The text files stage1 and stage2 are for validation and/or to give extra information about the Operators
+  - The yaml file is the "ImageSetConfiguration"
