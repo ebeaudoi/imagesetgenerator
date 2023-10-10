@@ -6,14 +6,14 @@ Depending on how many Operators you want to prune.  It can take a lot of time t
 
 This tool has been created to facilitate the process and generate a valid “ImageSetConfiguration” YAML file.
 
-Prerequisites:
+**Prerequisites:**
 
 - Download the script locally
 - Oc-mirror properly configured with the authentication
 - Ref: <https://docs.openshift.com/container-platform/4.13/installing/disconnected_install/installing-mirroring-disconnected.html#oc-mirror-mirror-to-disk_installing-mirroring-disconnected>
 - Downloading software: <https://console.redhat.com/openshift/downloads>
 
-How it works:
+**How it works:**
 
 - First, you need to identify the Operators you need and which catalogs they belong too.
 
